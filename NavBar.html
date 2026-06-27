@@ -1,16 +1,39 @@
 <html>
+    <head>
+        <title>Website</title>
+        <span class="border Trans" style="font-size: 40px;">
+        <center> Welcome All to this website </center>
+        </span><br>
+    </head>
     <body>
         <div class="topnav">
             <a class="active" href="#home">Home</a>
             <a href="#about">About_us</a>
             <a href="galery">Gallery</a>
-            <a href="#contacts">Contaces_us</a>
+            <a href="#contacts">Contact_us</a>
         </div>
         <section class="skills">
-             <img src="scratch.png.png" alt="Sratch PNG">
-             <img src="scratchML.png.png" alt="Sratch Machine Learning PNG">
+            <h1 class="skill">My Skills</h1>
+             <img class="mySlides" src="scratch.png.png" alt="Sratch PNG" style="height: 500px;">
+             <img class="mySlides" src="scratchML.png.png" alt="Sratch Machine Learning PNG" style="height: 500px;"> 
+             <img class="mySlides" src="MIT.png.png" alt="MIT PNG" style="height: 500px;">
+             <img class="mySlides" src="HTML.png.png" alt="HTML PNG" style="height: 500px;">
         </section>
-        <style>
+        <section class="sention">
+                <h2>Section One</h2>
+                <p>Web development is the work involved in developing a website for the Internet (World Wide Web ) or an intranet (a private netowrk).</p>
+            </section>
+            <div class="pimg3">
+                <h1 class="heading">Muhammad Ohod Raza</h1>
+                <div class="ptext">
+                    <span class="border Trans"></span>
+                </div>
+            </div>
+            <div class="myheading">
+            <p>I am a Class 7 student with a strong passion for programming, app development, and web design. I have developed advanced skills in Scratch, MIT App Inventor, HTML, CSS, and JavaScript, allowing me to create interactive games, mobile applications, and responsive websites. I enjoy solving problems through coding and continuously challenge myself by learning new technologies and building creative projects. My goal is to use my skills to develop innovative digital solutions while expanding my knowledge in software development and computer science.
+</p>
+            </div>
+            <style>
             body {
                 margin: 0;
                 font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +54,80 @@
                 background-color: #ffe066;
                 color: black;
             }
+            .mySlides {
+
+display: none;
+
+width: 800px;
+
+height: 450px;
+
+object-fit: contain;
+
+margin: auto;
+
+}
+.skills {
+    background-color: beige;
+}
+.skill {
+    text-align: center;
+    color: brown; 
+    font-family: sans-serif;
+}
+.footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: black;
+                color: white;
+                text-align: center;
+                height: 60px;
+            }
+             .pimg3 {
+                    position: relative;
+                    opacity: 0.70;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    text-align: center;
+                    color: #ddd;
+                }
+                .pimg3 {
+                    background-image: url('Coding.pnj.avif');
+                    min-height: 400px;
+                }
+                .section {
+                    text-align: center;
+                    padding: 50px, 80px;
+                }
+                .section-light {
+                    background-color: #f4f4f4;
+                    color: #666;
+                }
+                .section-dark {
+                    background-color: #282e34;
+                    color: #ddd;
+                }
+                .ptext {
+                    position: absolute;
+                    top: 50%;
+                    width: 100%;
+                    text-align: center;
+                    color: #000;
+                    font-size: 27px;
+                    letter-spacing: 8px;
+                    text-transform: uppercase;
+                }
+                .heading {
+                    top: 50%;
+                }
+                .myheading {
+                    height: 500px;
+                    font-size: 20px;
+                }
         </style>
         <script>
             var myIndex = 0;
@@ -47,5 +144,6 @@
                 setTimeout(carousel, 3000)
             }
         </script>
+        <div class="footer">@copy all rights and reserved by Muhammad Ohod Raza</div>
     </body>
 </html>
